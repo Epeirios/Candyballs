@@ -1,8 +1,22 @@
 body {
-  padding: 50px;
+  /*padding-top: 50px; Needed for fixed-top navbar*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*min-height: 2000px;*/
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
 }
 
 a {
   color: #00B7FF;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.navbar {
+  margin-bottom: 20px;
 }

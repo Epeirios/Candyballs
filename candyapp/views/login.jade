@@ -1,0 +1,37 @@
+extends layout/layout_head
+
+block extrastyle
+  link(rel='stylesheet', href='/stylesheets/login.css')
+
+block inbody
+  div.container
+    h1.login Welcome to Candyballs
+    form.form-signin
+      h3.form-signin-heading Please sign in
+      label.sr-only(
+        for = 'inputUsername'
+        )| Username
+      input.form-control#inputUsername(
+        type = 'text'
+        placeholder = 'Username'
+        required
+        autofocus
+        )
+      label.sr-only(
+        for = 'inputPassword'
+        )| Password
+      input.form-control#inputPasswordj(
+        type = 'password'
+        placeholder = 'Password'
+        required
+        )
+      div.checkbox
+        label
+          input(
+            type = 'checkbox'
+            value = 'remember-me'
+            )
+          | Remember me
+      button.btn.btn-lg.btn-default.btn-block(
+        type = 'submit'
+        )| Sign in
