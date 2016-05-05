@@ -1,2 +1,2 @@
-# Candyballs
-It's like candy, only with balls
+# Candyapp
+A Node.js app for testing some stuff.
